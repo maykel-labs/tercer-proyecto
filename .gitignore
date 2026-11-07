@@ -1,0 +1,19 @@
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+
+# Dependencias y compilaciones
+node_modules/
+dist/
+build/
+bin/
+obj/
+__pycache__/
+*.py[cod]
